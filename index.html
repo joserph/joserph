@@ -1,62 +1,357 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Joserph</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-  <link rel="stylesheet" href="asset/css/styles.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Joserph</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+   <link rel="stylesheet" href="asset/css/styles.css">
 </head>
 <body>
-  <nav class="navbar is-light">
-    <div class="container">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="asset/img/Logo_09.png" alt="Joserph" class="logo">
-        </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-end">
-            <div class="navbar-item">
-              
-                <a href="https://twitter.com/joserph_a" target="_blank" class="navbar-item">Twitter</a>
-                <a href="https://github.com/joserph" target="_blank" class="navbar-item">Github</a>
-                <a href="https://www.facebook.com/joserph.a" target="_blank" class="navbar-item">Facebook</a>
-                <a href="https://www.instagram.com/joserph.a/" target="_blank" class="navbar-item">Instagram</a>
-                <p class="control">
-                  <a class="button is-primary" href="https://www.youtube.com/channel/UC66zpXCu78-88CboaSbhFsQ?view_as=subscriber">
-                    <span class="icon">
-                      <i class="fa fa-youtube"></i>
-                    </span>
-                    <span>Youtube</span>
-                  </a>
-                </p>
-              
+   <nav class="navbar is-fixed-top is-light">
+      <div class="container">
+         <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+               <img src="asset/img/Logo_09.png" alt="Joserph" class="logo">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+               <span></span>
+               <span></span>
+               <span></span>
             </div>
+         </div>
+         <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-end">
+               <div class="navbar-item">
+                  <a href="#sobre_mi" class="navbar-item">Sobre mi</a>
+                  <a href="#habilidades" class="navbar-item">Habilidades</a>
+                  <a href="https://www.facebook.com/joserph.a" class="navbar-item">Facebook</a>
+                  <a href="https://www.instagram.com/joserph.a/" class="navbar-item">Instagram</a>
+                  <p class="control">
+                     <a class="button is-primary" href="https://www.youtube.com/channel/UC66zpXCu78-88CboaSbhFsQ?view_as=subscriber">
+                        <span class="icon">
+                           <i class="fa fa-youtube"></i>
+                        </span>
+                        <span>Youtube</span>
+                     </a>
+                  </p>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+   </nav>
+   <hr>
+   <section class="hero is-link is-fullheight-with-navbar" id="sobre_mi">
+      <div class="hero-body">
+         <div class="container">
+            <figure class="image is-128x128">
+               <img class="is-rounded" src="asset/img/joserph.jpg">
+            </figure>
+            <p class="title">
+               José Rafael Pérez Hidalgo
+            </p>
+            <p>Mi objetivo y deseo es aprender y adaptarme a demandas laborales de diversas índoles ya que soy responsable, disciplinado comprometido y autodidacta, es por ellos que estoy dispuesto a aprender y estar actualizado con la tecnología diariamente. Tengo conocimientos básicos de inglés, buen dominio de PHP con el Framework Laravel, Mysql y BootstrapTwitter. Considero, Aprovecho y agradezco las oportunidades que me brindan para encarar proyectos que me permiten crecer y poder aportar lo aprendido desarrollándome como profesional.</p>
+         </div>
+      </div>
+   </section>
+   <section class="hero is-info is-fullheight-with-navbar" id="habilidades">
+      <div class="hero-body">
+         <div class="container">
+            <p class="title">
+               Habilidades
+            </p>
+            
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">PHP</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/php.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">Laravel</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/laravel.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">HTML</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/html5.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">CSS</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/css3.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">Javascript</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/javascript.png">
+                     </figure>
+                  </article>
+               </div>
+            </div>
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">Jquery</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/jquery.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">Bootstrap</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/bootstrap.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">FacturaScript</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/facturascript.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">Vue</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/vue.png">
+                     </figure>
+                  </article>
+               </div>
+               <div class="tile is-parent">
+                  <article class="tile is-child box">
+                     <p class="subtitle has-text-dark">Mysql</p>
+                     <figure class="image is-4by3">
+                        <img src="asset/img/mysql.png">
+                     </figure>
+                  </article>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="hero is-success is-fullheight" id="">
+      <div class="tile is-ancestor">
+         <div class="tile is-parent">
+            <article class="tile is-child notification is-primary">
+               <p class="title">One</p>
+               <p class="subtitle">Subtitle</p>
+            </article>
+         </div>
+         <div class="tile is-parent">
+            <article class="tile is-child box">
+               <p class="title">Two</p>
+               <p class="subtitle">Subtitle</p>
+            </article>
+         </div>
+         <div class="tile is-parent">
+            <article class="tile is-child box">
+               <p class="title">Three</p>
+               <p class="subtitle">Subtitle</p>
+            </article>
+         </div>
+         <div class="tile is-parent">
+            <article class="tile is-child box">
+               <p class="title">Four</p>
+               <p class="subtitle">Subtitle</p>
+            </article>
+         </div>
+      </div>
+
+<div class="tile is-ancestor">
+  <div class="tile is-vertical is-9">
+    <div class="tile">
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Five</p>
+          <p class="subtitle">Subtitle</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-8 is-vertical">
+        <div class="tile">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Six</p>
+              <p class="subtitle">Subtitle</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Seven</p>
+              <p class="subtitle">Subtitle</p>
+            </article>
           </div>
         </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Eight</p>
+            <p class="subtitle">Subtitle</p>
+          </article>
+        </div>
+      </div>
     </div>
-    
-  
-    
-  </nav>
-  <script>
-  (function(){
-    var burger = document.querySelector('.burger');
-    var nav = document.querySelector('#'+burger.dataset.target);
+    <div class="tile">
+      <div class="tile is-8 is-parent">
+        <article class="tile is-child box">
+          <p class="title">Nine</p>
+          <p class="subtitle">Subtitle</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Ten</p>
+          <p class="subtitle">Subtitle</p>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <div class="content">
+        <p class="title">Eleven</p>
+        <p class="subtitle">Subtitle</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+          <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
 
-    burger.addEventListener('click', function(){
-      burger.classList.toggle('is-active');
-      nav.classList.toggle('is-active');
-    });
-  })();
-</script>
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">Twelve</p>
+      <p class="subtitle">Subtitle</p>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+      </div>
+    </article>
+  </div>
+  <div class="tile is-parent is-6">
+    <article class="tile is-child box">
+      <p class="title">Thirteen</p>
+      <p class="subtitle">Subtitle</p>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      </div>
+    </article>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+      <p class="title">Fourteen</p>
+      <p class="subtitle">Subtitle</p>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+      </div>
+    </article>
+  </div>
+</div>
+   </section>
+   <section class="hero is-primary is-medium">
+      <div class="hero-body">
+         <div class="container">
+            <h1 class="title">
+               Medium title
+            </h1>
+            <h2 class="subtitle">
+               Medium subtitle
+            </h2>
+         </div>
+      </div>
+   </section>
+   <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+         <div class="container">
+            <h1 class="title">
+               Primary bold title
+            </h1>
+            <h2 class="subtitle">
+               Primary bold subtitle
+            </h2>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script>
+      (function(){
+         var burger = document.querySelector('.burger');
+         var nav = document.querySelector('#'+burger.dataset.target);
+
+         burger.addEventListener('click', function(){
+            burger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+         });
+      })();
+
+      
+   </script>
+   <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+         
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+   </script>
 </body>
 </html>
