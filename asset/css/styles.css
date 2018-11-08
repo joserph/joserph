@@ -9,6 +9,10 @@
 	width: 64px;
 }
 
+.pa {
+	padding: 10px;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
